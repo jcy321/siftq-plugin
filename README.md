@@ -39,7 +39,7 @@ hash = hashlib.sha256(source.encode()).hexdigest()
 在 NewAPI 渠道编辑界面：
 - 渠道类型选 58（高级自定义）
 - task_plugin_key 填 `siftq`
-- Base URL 填 `https://siftq.com/api/minimax`
+- Base URL 填 `<供应商 API 根地址>`（如 `https://<vendor-host>/api/<path>`）
 
 ## 验证步骤
 1. 重启 NewAPI 容器（数据库直插需重启才能刷新缓存）
